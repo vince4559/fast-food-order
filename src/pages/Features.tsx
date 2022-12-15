@@ -1,7 +1,7 @@
 import { Box, Grid, GridItem, Heading, Stack, Text, Image, VStack } from '@chakra-ui/react'
 import mins from "../images/20mins.png"
 import organic from "../images/organic.png"
-import days from "../images/days.png"
+import day365 from "../images/days365.jpg" 
 import bck from "../images/bck.jpg"
 import order from "../images/order.png"
 
@@ -22,7 +22,7 @@ const Features = () => {
             <GridItem colSpan={[4,2,2,1]}>
                 <Stack bg={'white'} p={3} borderRadius={'2xl'} spacing={4} opacity={.7}> 
                 <VStack>
-                <Image alt="365days" src={days} w={'100px'} />
+                <Image alt="365days" src={day365} w={'100px'} />
                 </VStack>
                 <Heading size={'md'} textAlign={'center'} color={'darkgreen'} fontFamily={'cursive'}>
                     Up to 365 days/year
